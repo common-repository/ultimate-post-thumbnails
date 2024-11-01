@@ -1,0 +1,503 @@
+/*
+ * Ultimate Post Thumbnails main styles
+ * 
+ * An id of #upt-container is added before most styles to prevent styles 
+ * affected by CSS rules like "#id li" from theme or other plugin,
+ */
+/* ___________________________________________________________________
+
+          Import FlexSlider Styles
+   ___________________________________________________________________ */
+/* Browser Resets
+*********************************/
+#upt-container a:active,
+#upt-container a:focus {
+  outline: none;
+}
+.upt-slides,
+#upt-container ol.flex-control-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* FlexSlider Necessary Styles
+*********************************/
+.upt-item {
+  line-height: 0;
+}
+.upt-thumb-slider {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+.upt-thumb-slider .upt-item {
+  display: none;
+  -webkit-backface-visibility: hidden;
+}
+/* Hide the upt-slides before the JS is loaded. Avoids image jumping */
+#upt-container .flex-pauseplay span {
+  text-transform: capitalize;
+}
+/* Clearfix for the .upt-slides element */
+.upt-slides:after {
+  content: "\0020";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+html[xmlns] .upt-slides {
+  display: block;
+}
+* html .upt-slides {
+  height: 1%;
+}
+/* FlexSlider Default Theme
+*********************************/
+.flex-viewport {
+  max-height: 2000px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.loading .flex-viewport {
+  max-height: 300px;
+}
+.upt-thumb-slider .upt-slides {
+  zoom: 1;
+}
+#upt-container .carousel li {
+  margin-right: 5px;
+}
+/* Pause/Play */
+#upt-container .flex-pauseplay a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  opacity: 0.8;
+  z-index: 10;
+  overflow: hidden;
+  cursor: pointer;
+  color: #000;
+}
+#upt-container .flex-pauseplay a:before {
+  font-family: "FontAwesome";
+  font-size: 20px;
+  display: inline-block;
+  content: '\f004';
+}
+#upt-container .flex-pauseplay a:hover {
+  opacity: 1;
+}
+#upt-container .flex-pauseplay a.flex-play:before {
+  content: '\f003';
+}
+/* Control Nav */
+#upt-container ol.flex-control-nav {
+  width: 100%;
+  position: absolute;
+  bottom: -40px;
+  text-align: center;
+}
+#upt-container ol.flex-control-nav li {
+  float: none;
+  margin: 0 6px;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+#upt-container ol.flex-control-paging li a {
+  cursor: pointer;
+  text-indent: -9999px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+#upt-container ol.flex-control-paging li a:hover {
+  background: #333;
+  background: rgba(0, 0, 0, 0.7);
+}
+#upt-container ol.flex-control-paging li a.flex-active {
+  background: #000;
+  background: rgba(0, 0, 0, 0.9);
+  cursor: default;
+}
+#upt-container ol.flex-control-thumbs {
+  margin: 5px 0 0;
+  position: static;
+  overflow: hidden;
+}
+#upt-container ol.flex-control-thumbs li {
+  width: 25%;
+  float: left;
+  margin: 0;
+}
+#upt-container ol.flex-control-thumbs img {
+  transition: opacity 0.3s ease-in;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.5;
+  cursor: pointer;
+}
+#upt-container ol.flex-control-thumbs img:hover {
+  opacity: 1;
+}
+#upt-container ol.flex-control-thumbs .flex-active {
+  opacity: 1;
+  cursor: default;
+}
+/* ___________________________________________________________________
+
+                  UPT Styles
+  ___________________________________________________________________ */
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+* include js that eliminates this class on page load */
+.no-js .upt-slides > .upt-item:first-child {
+  display: block;
+}
+.no-js #upt-container .upt-thumb-slider > span {
+  display: none;
+}
+.upt.alignleft {
+  margin: 0.86em 1.7em 0 0;
+}
+.upt.alignright {
+  margin: 0.86em 0 0 1.7em;
+}
+.upt.aligncenter {
+  margin: 0.86em 0 0;
+}
+.upt-link {
+  display: block;
+  line-height: 0;
+}
+.upt-container {
+  max-width: 100%;
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+}
+.upt-container.upt-no-imgclass {
+  padding: 0;
+  margin: 0 0 1.7em;
+  display: block;
+}
+#upt-container:hover .flex-direction-nav a {
+  opacity: 0.8;
+}
+.upt-thumb-slider {
+  position: relative;
+}
+#upt-container.upt-promo-imgclass .upt-item img {
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+}
+#upt-container .upt-item * {
+  margin: 0;
+}
+#upt-container .upt-item img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+/* Direction Nav */
+#upt-container .upt-thumb-slider > span {
+  display: block;
+  font-size: 16px;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  margin: -13px 0 0;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  overflow: hidden;
+  opacity: 0;
+  cursor: pointer;
+  color: #000;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  transition: all .3s ease;
+}
+#upt-container .upt-thumb-slider > span:hover {
+  opacity: 1;
+}
+#upt-container .upt-thumb-slider > span.upt-previous {
+  left: -20px;
+}
+#upt-container .upt-thumb-slider > span.upt-next {
+  right: -20px;
+}
+#upt-container .upt-thumb-slider:hover span.upt-previous {
+  opacity: 0.7;
+  left: 10px;
+}
+#upt-container .upt-thumb-slider:hover span.upt-next {
+  opacity: 0.7;
+  right: 10px;
+}
+#upt-container .upt-thumb-slider:hover span.upt-next:hover,
+#upt-container .upt-thumb-slider:hover span.upt-previous:hover {
+  opacity: 1;
+}
+#upt-container .upt-thumb-slider span.upt-previous:before {
+  font-family: "FontAwesome";
+  display: inline-block;
+  content: '\f053';
+}
+#upt-container .upt-thumb-slider span.upt-next:before {
+  font-family: "FontAwesome";
+  display: inline-block;
+  content: '\f054';
+}
+/* Control Nav */
+#upt-container ol.flex-control-paging * {
+  margin: 0;
+  padding: 0;
+}
+#upt-container ol.flex-control-paging {
+  position: absolute;
+  bottom: 12px;
+  z-index: 99;
+  margin: 0;
+  padding: 0;
+}
+#upt-container ol.flex-control-paging li {
+  width: 9px !important;
+  height: 9px !important;
+  margin: 0 4px !important;
+  padding: 0 !important;
+}
+#upt-container ol.flex-control-paging li a {
+  background-color: #000;
+  opacity: 0.5;
+  display: inline-block;
+  vertical-align: middle;
+  width: 9px;
+  height: 9px;
+  line-height: 14px;
+}
+/* Control Nav Thumbnails */
+#upt-container ol.flex-control-thumbs * {
+  margin: 0;
+  padding: 0;
+}
+#upt-container ol.flex-control-thumbs li {
+  padding: 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+}
+#upt-container ol.flex-control-thumbs li img {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+}
+/* Thumbnail Captions */
+#upt-container span.upt-caption {
+  max-width: 100%;
+  padding: 1% 2%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+/* possible to instead with CSS calc() - http://caniuse.com/#feat=calc */
+#upt-container.upt-count-2 ol.flex-control-thumbs li {
+  width: 20%;
+}
+#upt-container.upt-count-3 ol.flex-control-thumbs li {
+  width: 20%;
+}
+#upt-container.upt-count-4 ol.flex-control-thumbs li {
+  width: 20%;
+}
+#upt-container.upt-count-5 ol.flex-control-thumbs li {
+  width: 20%;
+}
+#upt-container.upt-count-6 ol.flex-control-thumbs li {
+  width: 16.67%;
+}
+#upt-container.upt-count-7 ol.flex-control-thumbs li {
+  width: 14.29%;
+}
+#upt-container.upt-count-8 ol.flex-control-thumbs li {
+  width: 12.5%;
+}
+#upt-container.upt-count-9 ol.flex-control-thumbs li {
+  width: 11.11%;
+}
+#upt-container.upt-count-10 ol.flex-control-thumbs li {
+  width: 10%;
+}
+/* ___________________________________________________________________
+
+                          Minimal White
+  ___________________________________________________________________ */
+#upt-container.upt-theme-light .upt-thumb-slider > span {
+  color: rgba(255, 255, 255, 0.8);
+}
+#upt-container.upt-theme-light .upt-thumb-slider > span:hover {
+  color: #ffffff;
+}
+#upt-container.upt-theme-light ol.flex-control-paging li a {
+  background-color: #ffffff;
+  box-shadow: none;
+  opacity: 0.5;
+}
+#upt-container.upt-theme-light ol.flex-control-paging li a:hover {
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+#upt-container.upt-theme-light ol.flex-control-paging li a.flex-active {
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+/* ___________________________________________________________________
+
+                      Theme - Circle
+  ___________________________________________________________________ */
+#upt-container.upt-theme-circle .upt-thumb-slider > span {
+  font-size: 20px;
+}
+#upt-container.upt-theme-circle .upt-thumb-slider span.upt-previous:before {
+  content: '\f137';
+}
+#upt-container.upt-theme-circle .upt-thumb-slider span.upt-next:before {
+  content: '\f138';
+}
+/* ___________________________________________________________________
+
+                      Theme - Dock Square
+  ___________________________________________________________________ */
+#upt-container.upt-theme-dock_square .upt-thumb-slider > span {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  height: 40px;
+  line-height: 40px;
+  opacity: 0;
+  width: 30px;
+  font-size: 20px;
+}
+#upt-container.upt-theme-dock_square .upt-thumb-slider > span.upt-previous {
+  left: 0;
+}
+#upt-container.upt-theme-dock_square .upt-thumb-slider > span.upt-next {
+  right: 0;
+}
+#upt-container.upt-theme-dock_square .upt-thumb-slider:hover span.upt-previous {
+  opacity: 0.7;
+}
+#upt-container.upt-theme-dock_square .upt-thumb-slider:hover span.upt-next {
+  opacity: 0.7;
+}
+#upt-container.upt-theme-dock_square .upt-thumb-slider span.upt-previous:before {
+  content: '\f104';
+}
+#upt-container.upt-theme-dock_square .upt-thumb-slider span.upt-next:before {
+  content: '\f105';
+}
+#upt-container.upt-theme-dock_square.upt-theme-dark .upt-thumb-slider > span {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.8);
+}
+/* ___________________________________________________________________
+
+                      Theme - Outline Circle
+  ___________________________________________________________________ */
+#upt-container.upt-theme-outline_circle .upt-thumb-slider > span {
+  border-radius: 40px;
+  border: 2px solid #ffffff;
+  line-height: 24px;
+  opacity: 0;
+  font-size: 20px;
+}
+#upt-container.upt-theme-outline_circle .upt-thumb-slider > span.upt-previous {
+  left: 15px;
+}
+#upt-container.upt-theme-outline_circle .upt-thumb-slider > span.upt-next {
+  right: 15px;
+}
+#upt-container.upt-theme-outline_circle .upt-thumb-slider:hover span.upt-previous {
+  opacity: 0.4;
+}
+#upt-container.upt-theme-outline_circle .upt-thumb-slider:hover span.upt-next {
+  opacity: 0.4;
+}
+#upt-container.upt-theme-outline_circle .upt-thumb-slider span.upt-previous:before {
+  content: '\f104';
+}
+#upt-container.upt-theme-outline_circle .upt-thumb-slider span.upt-next:before {
+  content: '\f105';
+}
+#upt-container.upt-theme-outline_circle ol.flex-control-paging li a {
+  opacity: 0.7;
+}
+#upt-container.upt-theme-outline_circle ol.flex-control-paging li a.flex-active {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  height: 7px;
+  width: 7px;
+}
+#upt-container.upt-theme_outline_circle.upt-theme-dark .upt-thumb-slider > span {
+  border-color: #000000;
+}
+#upt-container.upt-theme_outline_circle.upt-theme-dark ol.flex-control-paging li a.flex-active {
+  border-color: #000000;
+}
+#upt-container .upt-thumb-slider:hover span.upt-next:hover,
+#upt-container .upt-thumb-slider:hover span.upt-previous:hover {
+  opacity: 0.9;
+}
+/* ___________________________________________________________________
+
+          Visual Composer
+  ___________________________________________________________________ */
+.vc-gitem-zone-height-mode-auto #upt-container,
+.vc-gitem-zone-height-mode-auto .upt-link-single {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.upt-slides .upt-item:first-child {
+  display: block;
+}
+.upt-slides .upt-item.clone {
+  display: none;
+}
+#upt-container.upt-pos-absolute {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#upt-container.upt-pos-absolute .upt-thumb-slider {
+  height: 100%;
+}
+#upt-container.upt-pos-absolute .upt-thumb-slider img {
+  position: relative;
+  transform: none;
+  top: 0;
+  left: 0;
+}

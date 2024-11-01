@@ -1,0 +1,212 @@
+.tn-admin-page {
+	input[disabled], input:disabled,
+	textarea[disabled], textarea:disabled,
+	select[disabled], select:disabled {
+		opacity: 0.5;
+	}
+	label.tn-disabled {
+		color: red;
+	}
+	.button.tn-disabled {
+		opacity: 0.5;
+	}
+}
+
+// Remove border added by WP
+.upt-thumbnails {
+	input[disabled], input:disabled,
+	textarea[disabled], textarea:disabled,
+	select[disabled], select:disabled {
+		opacity: 0.5;
+	}
+	img {
+		border:none!important;
+	}
+	.ipopt-desc a {
+		color: #0073aa;
+	}
+}
+
+#upt-image-thumb-0:before {
+	content:"\f00c";
+    font-family: FontAwesome;
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    z-index: 999;
+    color: #fff;
+    background-color: green;
+}
+
+// #upt-image-thumb-0:hover:after {
+//     content: "This is your default featured image, some themes relies on it to decide display featured image/s or not.";
+//     padding: 10px;
+//     background-color: #000;
+//     position: absolute;
+//     top: -10px;
+//     left: 0;
+//     width: 200px;
+//     transform: translateY(-100%);
+//     color: #fff;
+// }
+
+.upt-pro-only {
+	color: red;
+}
+
+.upt-disabled {
+	input,select,textarea,option {
+		opacity: 0.5;
+	}
+}
+.upt-images-thumb {
+	li {
+		float: left;
+		margin-right: 9px;
+		position: relative;
+		z-index: 0;
+
+		&.in-active img, &.in-active:before {
+			opacity: 0.3;
+		}
+
+		.del {
+			font-family: FontAwesome;
+			font-size: 16px;
+			width: 16px;
+			height: 16px;
+			position: absolute;
+			top: -5px;
+			right: -5px;
+			cursor: pointer;
+			z-index: 999;
+			display: none;
+
+			&:before {
+				content: "\f057";
+			}
+
+			&:hover {
+				color: #D52121;
+			}
+
+		}
+
+		&:hover .del {
+			display: block;
+		}
+
+	}
+
+	img {
+		width: 75px !important;
+		height: 75px !important;
+		cursor: pointer;
+	}
+
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+}
+
+.upt-images {
+	margin-left: -12px;
+	margin-right: -12px;
+	border-bottom: 1px solid #ddd;
+}
+
+.upt-image-entry {
+	display: none;
+	border: none;
+
+	.upt-preview-image {
+		padding: 0;
+		margin: 0;
+
+		img {
+			margin: 0;
+		}
+
+	}
+
+	.tn-opt-body {
+		padding: 0;
+	}
+}
+
+.upt-options {
+	display: none;
+	margin-left: -12px;
+	margin-right: -12px;
+	option[disabled], option:disabled {
+		color:red;
+	}
+
+	.tn-opt {
+		padding: 16px 12px;
+		margin: 0;
+		border-bottom: 1px solid #ddd;
+
+		input {
+			width: 90%;
+		}
+
+		select {
+			padding: 0;
+		}
+
+	}
+
+	.tn-opt-title {
+		color: #111;
+	}
+
+}
+
+#upt-slider-settings {
+	border-top: 1px solid #fff;
+}
+
+#upt-slider-settings h4 {
+	color: #21759B;
+	opacity: 0.9;
+	font-size: 13px;
+	margin: 0;
+	padding: 20px 0 10px;
+	cursor: pointer;
+}
+
+#upt-slider-settings .tn-toggle:before {
+	font-family: FontAwesome;
+	font-size: 16px;
+	content: "\f013";
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+#upt-add-featured-image {
+	margin-top: 10px;
+}
+
+/* ------------ Shortcode Button ------------ */
+.wp_themeSkin span.mce_ultimate_post_thumbnails {
+	background: transparent url(../shortcode/thumbslider-icon.png) no-repeat center 1px;
+}
+
+.wp_themeSkin .mceButtonEnabled:hover span.mce_ultimate_post_thumbnails,
+.wp_themeSkin .mceButtonActive span.mce_ultimate_post_thumbnails {
+	background-position: center -19px;
+}
+
+.tn-page h1 {
+	font-size: 38px !important;
+}

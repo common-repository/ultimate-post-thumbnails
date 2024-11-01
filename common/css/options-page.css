@@ -1,0 +1,351 @@
+.tn-admin-page {
+  margin: 15px 15px 0 0;
+  font-size: 14px;
+  color: #555;
+  background-color: #ffffff;
+}
+.tn-admin-page span.lite-version {
+  opacity: 0.6;
+  font-size: 40px;
+  letter-spacing: 0px;
+  margin-left: 10px;
+}
+.tn-admin-page .fr {
+  float: right;
+}
+.tn-admin-page .fl {
+  float: left;
+}
+.tn-admin-page .icon-expand {
+  line-height: 16px;
+  width: auto;
+}
+.tn-admin-page .icon-expand:before {
+  content: "\f0da";
+  vertical-align: middle;
+}
+.tn-admin-page .icon-delete:before {
+  font-size: 18px;
+  content: "\f057";
+  vertical-align: middle;
+}
+.tn-admin-page .icon-delete:hover {
+  color: red;
+}
+.tn-admin-page a {
+  text-decoration: none;
+  outline: 0;
+}
+.tn-admin-page ul {
+  margin: 0;
+}
+.tn-admin-page li {
+  margin: 0;
+}
+.tn-admin-page h1,
+.tn-admin-page h2,
+.tn-admin-page h3,
+.tn-admin-page h4,
+.tn-admin-page h5,
+.tn-admin-page h6 {
+  font-weight: normal;
+  line-height: 1em;
+  margin: 0;
+}
+.tn-admin-page p {
+  margin-bottom: 10px;
+}
+.tn-admin-page p.desc {
+  color: #888;
+  margin: 10px 0 0 4px;
+  letter-spacing: 0.5px;
+}
+.tn-admin-page p.desc:hover {
+  color: #333;
+}
+.tn-admin-page .submit {
+  margin: 40px 0 0 0;
+  padding: 22px 20px;
+  border-radius: 0;
+  border-top: 1px solid #ccc;
+}
+.tn-header {
+  position: relative;
+  padding: 45px 0 10px 30px;
+  z-index: 1;
+}
+.tn-header h1 {
+  color: #222222;
+  float: left;
+  margin: 40px 0 60px 0;
+  font-size: 58px;
+  font-weight: 600;
+  letter-spacing: -3px;
+  line-height: 1;
+}
+.tn-header h1 span {
+  font-weight: 200;
+  font-size: 54px;
+  letter-spacing: -2px;
+}
+.tn-header ul {
+  float: right;
+  margin: 27px 40px 0 0;
+  color: #222222;
+  font-size: 12px;
+}
+.tn-header ul li {
+  text-align: center;
+  float: left;
+  border-left: 1px solid #f3f3f3;
+  padding: 10px 25px;
+}
+.tn-header ul a {
+  color: #222222;
+  font-weight: bold;
+}
+.tn-header ul i {
+  display: block;
+  font-size: 46px;
+  color: #b13d3d;
+  margin-bottom: 5px;
+}
+.tn-header .brand {
+  color: #ffffff;
+  background-color: #b13d3d;
+  padding: 8px 18px;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+.tn-header .brand a {
+  color: #ffffff;
+  opacity: 0.6;
+}
+.tn-header .brand a:hover {
+  opacity: 1;
+}
+.tn-header .version {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px 20px 0 0;
+  color: #999999;
+}
+.tn-header .version span {
+  margin: 0 10px 0 0px;
+  font-weight: bold;
+}
+.tn-header .message-saved p {
+  background-color: #69839e;
+  color: #fff;
+}
+.tn-header .message-update p {
+  background-color: #ffcc66;
+  color: #696549;
+}
+.tn-header .tn-message {
+  padding-top: 15px;
+}
+.tn-header .tn-message p {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 8px 15px;
+  font-family: arial;
+  line-height: 19px;
+  font-weight: bold;
+  -khtml-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+ul.tn-nav-menu {
+  float: left;
+  display: block;
+  padding: 0 0 0 30px;
+  margin-top: -10px;
+}
+ul.tn-nav-menu li {
+  opacity: 0.5;
+  display: block;
+  clear: both;
+  margin: 11px 0px;
+  cursor: pointer;
+}
+ul.tn-nav-menu li p {
+  display: none;
+}
+ul.tn-nav-menu li span {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 34px;
+  color: #000;
+  vertical-align: middle;
+}
+ul.tn-nav-menu li i {
+  width: 36px;
+  line-height: 34px;
+  font-size: 22px;
+  text-align: center;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+ul.tn-nav-menu li.current {
+  opacity: 1;
+}
+ul.tn-nav-menu li.current i {
+  color: #b13d3d;
+}
+ul.tn-nav-menu li.collapse {
+  opacity: 0.25;
+}
+ul.tn-nav-menu li.collapse i:before {
+  content: "\f0a8";
+}
+ul.tn-nav-menu li:hover {
+  opacity: 0.7;
+}
+/* Use "visibility:hidden" to hide options - Custom CSS Syntax highlight script won't initialize on "display:none" elements */
+ul.tn-opt-groups {
+  display: block;
+  margin-left: 280px;
+}
+ul.tn-opt-groups .group-title {
+  display: none;
+  padding: 35px 10px 20px;
+}
+ul.tn-opt-groups .group-desc {
+  padding: 20px;
+  background: lightslategray;
+  color: #fff;
+}
+ul.tn-opt-groups .group-desc a {
+  color: #fff;
+  opacity: 0.8;
+}
+ul.tn-opt-groups .group-desc a:hover {
+  opacity: 1;
+}
+ul.tn-opt-groups li {
+  visibility: hidden;
+  display: block;
+  height: 0;
+}
+ul.tn-opt-groups li:first-child {
+  visibility: visible;
+  height: auto;
+}
+ul.tn-opt-groups h2 {
+  padding-top: 20px;
+}
+.tn-collapse-menu .tn-nav-menu li.collapse i:before {
+  content: "\f0a9";
+}
+.tn-collapse-menu .tn-nav-menu span {
+  display: none;
+}
+.tn-collapse-menu .tn-opt-groups {
+  margin-left: 90px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th,
+table td {
+  background-color: #f5f5f5;
+}
+table .alt th,
+table .alt td {
+  background-color: #ffffff;
+}
+table .alt .alt {
+  background-color: transparent;
+}
+table .table-header {
+  background-color: #fff;
+  background-image: none;
+  border-bottom: 1px solid #EEEEEE;
+}
+table .table-header th {
+  padding: 8px 15px;
+  line-height: 19px;
+  text-align: left;
+  color: #999;
+}
+table .depth-0 td {
+  padding: 30px 20px;
+  text-align: left;
+  vertical-align: top;
+}
+table .depth-0 th {
+  padding: 33px 20px 20px 30px;
+  width: 200px;
+  text-align: left;
+  font-weight: bold;
+  color: #444;
+  vertical-align: top;
+  font-size: 14px;
+}
+table .depth-1 .desc {
+  display: inline;
+  padding: 0 5px;
+  margin: 5px 5px 0;
+  vertical-align: top;
+}
+table .depth-1 th {
+  font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+  font-style: italic;
+  font-size: 12px;
+  width: 60px;
+  padding: 0 0 4px;
+  vertical-align: middle;
+}
+table .depth-1 td {
+  padding: 0 0 4px;
+  vertical-align: middle;
+}
+table .item-actions span:first-child {
+  padding-left: 0;
+  border: none;
+  margin: 0;
+}
+table .item-actions span {
+  padding: 0 4px;
+  border-left: 1px solid #aaa;
+  line-height: 11px;
+  display: inline-block;
+}
+table .row-heading td {
+  background-color: #555;
+  color: #eee;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px 15px;
+}
+table .row-toggle {
+  cursor: pointer;
+  border-bottom: 1px solid #fafafa;
+  border-top: 1px solid #FFFFFF;
+  background-color: #F0F0F0;
+  padding: 8px 15px 12px;
+}
+table .row-toggle td {
+  background: transparent url(images/whitedot.gif) repeat-x 0 0;
+}
+table .toggle-title {
+  font-weight: bold;
+  float: left;
+  margin: 0 10px;
+}
+table .actions-bar {
+  background-color: #F0F0F0;
+  border: 1px solid #E4E4E4;
+  height: 20px;
+  padding: 15px;
+}

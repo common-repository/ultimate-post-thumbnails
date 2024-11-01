@@ -1,0 +1,387 @@
+/* Prefixes Description:
+	ipopt - iwak post option, options on post editing pages 
+	iaopt - iwak admin option, options on theme/plugin admin panels
+	isopt - iwak shortcode option, options on shortcode popup pages
+*/
+.tn-color-preview {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background: url(../lib/colorpicker/images/select.png);
+  float: left;
+  margin-right: 10px;
+}
+.tn-color-preview div {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 30px;
+  height: 30px;
+  background: url(../lib/colorpicker/images/select.png) center;
+}
+.tn-preview-image {
+  max-width: 500px;
+  margin-bottom: 1em;
+  display: block;
+}
+#postbox-container-1 .tn-preview-image {
+  max-width: 100%;
+}
+.has-check-btn .button-status-on:before {
+  content: "\f046";
+  font-family: FontAwesome;
+  color: green;
+}
+.has-check-btn .tn-button:before {
+  content: "\f096";
+  font-family: FontAwesome;
+  color: #ccc;
+}
+.has-check-btn .tn-button {
+  font-size: 14px;
+  background-color: transparent;
+  padding: 0!important;
+}
+.icons-selector {
+  margin: 1px;
+  width: 80px;
+  height: 24px;
+  padding-right: 5px;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+.icons-selector .selected {
+  float: left;
+  margin-left: 7px;
+  font-size: 18px;
+}
+.icons-selector span {
+  float: right;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+.icons ul {
+  width: 100%;
+  float: left;
+}
+.icons li {
+  list-style: none;
+  width: 15px;
+  display: block;
+  float: left;
+  padding: 3px;
+  margin: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+.fullwidth {
+  width: 100%;
+}
+/* ----------------------- Button ----------------------- */
+.tn-button {
+  cursor: pointer;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 7px 13px;
+}
+.tn-upload-media {
+  margin-right: 7px!important;
+  cursor: pointer;
+}
+.button-status-on {
+  background-color: #6484b9;
+  color: #fff;
+  text-shadow: none;
+}
+.button-status-on.reset {
+  background-color: #eb4545;
+  color: #fff;
+  text-shadow: none;
+}
+.tn-button-status {
+  background-color: #ddd;
+  color: #999999;
+  text-shadow: 0 1px #FFFFFF;
+  margin-right: 10px;
+}
+.tn-button-primary {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid #357ebd;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: #ffffff;
+  background-color: #428bca;
+}
+.tn-button-primary:hover,
+.tn-button-primary:focus,
+.tn-button-primary:active,
+.tn-button-primary.active {
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+/* ----------------------- Accordion ----------------------- */
+.ui-icon-triangle-1-e:before {
+  content: "\f0da";
+}
+.ui-icon:before {
+  font-family: FontAwesome;
+  line-height: 14px;
+  vertical-align: middle;
+}
+.tn-accordion .ui-icon {
+  display: inline;
+  margin-right: 10px;
+}
+.tn-accordion-entry h4 {
+  margin: 5px 0 0;
+  padding: 10px 15px;
+  border: 1px solid #d5d5d5;
+}
+.tn-accordion-entry .ui-state-active {
+  border-color: #ccc #ccc #ccc #ccc;
+}
+.tn-accordion-entry .tn-icon {
+  display: none;
+  float: right;
+  cursor: pointer;
+  opacity: 0.3;
+}
+.tn-accordion-entry .wp-editor-wrap iframe {
+  height: 307px!important;
+}
+.tn-accordion-entry .tn-icon:hover {
+  opacity: 1;
+}
+.tn-accordion-entry > div {
+  padding: 15px 15px 30px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tn-accordion-entry .ui-accordion-content-active {
+  border-color: #d5d5d5;
+}
+.ui-icon-triangle-1-s:before {
+  content: "\f0dd";
+  vertical-align: top;
+}
+/* -------------------- General Option Styles -------------------- */
+.tn-opt input,
+.tn-opt select,
+.tn-opt textarea {
+  color: #464646;
+  border-color: #cccccc;
+  padding: 5px;
+}
+.tn-opt option {
+  padding-left: 5px;
+}
+.tn-opt input.invalid,
+.tn-opt textarea.invalid {
+  border-color: #888;
+}
+.tn-opt div.regular-select {
+  width: 142px;
+}
+.tn-opt div.large-select {
+  width: 372px;
+}
+.tn-opt input.button-primary {
+  border-color: #298CBA;
+  color: #FFFFFF;
+}
+.tn-opt .radiobutton {
+  margin-right: 10px;
+}
+.tn-opt .small-textarea,
+.tn-opt .regular-textarea {
+  line-height: 18px;
+}
+.tn-opt input.small-text,
+.tn-opt select.regular-select {
+  width: 150px;
+  padding: 3px 5px;
+}
+.tn-opt .regular-text,
+.tn-opt .small-textarea,
+.tn-opt .regular-textarea {
+  width: 380px;
+  max-width: 100%;
+  padding-left: 6px;
+}
+.tn-opt textarea.css {
+  width: 100%;
+  height: 800px;
+}
+.tn-opt .wide-textarea {
+  width: 600px;
+  height: 100px;
+}
+.tn-opt .regular-text {
+  line-height: 16px;
+}
+.tn-opt .large-text-f {
+  width: 360px;
+}
+.tn-opt .large-select {
+  width: 380px;
+}
+.tn-opt .regular-radio {
+  display: block;
+  margin: 0 20px 4px 0;
+}
+.tn-opt .large-textarea {
+  width: 487px;
+  height: 200px;
+}
+.tn-opt .regular-textarea {
+  height: 126px;
+}
+.tn-opt .regular-checkbox input {
+  margin-right: 10px;
+}
+/* -------------------- Post Option Styles -------------------- */
+.ipopt.fl {
+  padding-right: 20px;
+}
+.ipopt-desc {
+  opacity: 0.8;
+}
+.ipopt-desc a {
+  color: #333;
+  text-decoration: none;
+}
+.ipopt-desc a:hover {
+  color: #21759B;
+  text-decoration: underline;
+}
+.ipopt-title {
+  padding-bottom: 10px;
+}
+.ipopt-divider {
+  border: none;
+  margin: 0;
+}
+.ipopt-divider .title {
+  margin-left: 5px;
+}
+.ipopt:last-child {
+  border: none;
+  margin-bottom: 0;
+}
+.ipopt-body {
+  padding-bottom: 8px;
+}
+.ipopt {
+  padding: 6px 0;
+  margin: 0 3px;
+}
+.ipopt select {
+  min-width: 120px;
+}
+/* -------------------- Shortcode Option Styles -------------------- */
+i.mce-i-icon {
+  font: 400 20px/1 dashicons;
+  padding: 0;
+  vertical-align: top;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: -2px;
+  padding-right: 2px;
+}
+.isopt-body {
+  position: relative;
+}
+.isopt-body textarea {
+  width: 100%;
+  height: 180px;
+}
+.isopt-title {
+  text-align: left;
+  font-size: 12px;
+  width: 150px!important;
+  vertical-align: top;
+  padding-top: 15px!important;
+}
+.isopt-desc {
+  margin-left: 10px;
+  font-style: italic;
+}
+#tn-shortcode-options {
+  position: relative;
+  max-width: 700px;
+  padding: 5px 20px 20px;
+  background-color: #fff;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+#tn-shortcode-options h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#tn-shortcode-options table {
+  margin-bottom: 10px;
+  border: 1px solid #9E9EA0;
+}
+#tn-shortcode-options th,
+#tn-shortcode-options td {
+  padding: 12px;
+}
+#tn-shortcode-options tr:nth-child(odd) {
+  background: #D6D6D6;
+}
+#tn-shortcode-options td {
+  border-left: 1px solid #AAAAAE;
+  min-width: 150px;
+}
+#tn-shortcode-options tr:nth-child(even) {
+  background: #F0F0F0;
+}
+#tn-shortcode-options th {
+  font-weight: normal;
+}
+#tn-shortcode-options h1 {
+  font-size: 20px;
+}
+#tn-insert-shortcode {
+  margin-top: 5px;
+}
+/* One Click Demo Import */
+.ocdi__title {
+  font-size: 2.4em!important;
+  margin-bottom: 20px!important;
+}
+.ocdi__title:before {
+  vertical-align: middle!important;
+  font-size: 1.4em!important;
+  font-family: Fontawesome!important;
+  content: "\f019" !important;
+  margin-right: 20px!important;
+}
+.ocdi__intro-text .about-description {
+  display: none!important;
+}
+.themenow-about-wrap img {
+  border: none;
+}

@@ -1,0 +1,694 @@
+# Copyright (C) 2017 Addway
+# This file is distributed under the same license as the Ultimate Post Thumbnails package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Post Thumbnails 2.2.2\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/ultimate-post-thumbnails\n"
+"POT-Creation-Date: 2017-01-14 12:35:44+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: addons.php:93
+msgid "1977"
+msgstr ""
+
+#: addons/visual_composer_integration/visual_composer_integration.php:141
+msgid "Use Ultimate Post Thumbnails on background?"
+msgstr ""
+
+#: addons/visual_composer_integration/visual_composer_integration.php:143
+#: admin/post-types.php:14 admin/post-types.php:24 admin/post-types.php:47
+#: metabox-thumbnail-slider-settings.php:50
+#: metabox-thumbnail-slider-settings.php:59
+#: metabox-thumbnail-slider-settings.php:96
+#: metabox-thumbnail-slider-settings.php:115
+#: metabox-thumbnail-slider-settings.php:126
+#: metabox-thumbnail-slider-settings.php:135
+#: metabox-thumbnail-slider-settings.php:144
+msgid "Yes"
+msgstr ""
+
+#: addons/visual_composer_integration/visual_composer_integration.php:144
+msgid ""
+"Note: Ultimate Post Thumbnails overwrite featured image and background "
+"image from \"Design Options\"."
+msgstr ""
+
+#: addons/visual_composer_integration/visual_composer_integration.php:148
+msgid "Ultimate Post Thumbnails image size"
+msgstr ""
+
+#: addons/visual_composer_integration/visual_composer_integration.php:150
+msgid ""
+"Enter image size in pixels. Example: 200x100 (Width x Height). "
+"Alternatively enter an image size name. The size should match the height "
+"mode you choose, leave empty for \"original\"."
+msgstr ""
+
+#: addons.php:35
+msgid "Image Ratio"
+msgstr ""
+
+#: addons.php:38 addons.php:83 admin/default.php:31 admin/general.php:116
+#: admin/post-types.php:51 inc/prettyphoto/prettyphoto.php:53
+#: metabox-post-thumbnails.php:81 metabox-post-thumbnails.php:102
+#: metabox-thumbnail-slider-settings.php:156
+msgid "(Pro only)"
+msgstr ""
+
+#: addons.php:43
+msgid "Works only where image size isn't limited, e.g. in a masonry grid."
+msgstr ""
+
+#: addons.php:48
+msgid "Original"
+msgstr ""
+
+#: addons.php:56 metabox-post-thumbnails.php:79
+msgid "Custom"
+msgstr ""
+
+#: addons.php:62
+msgid "Custom Ratio"
+msgstr ""
+
+#: addons.php:63
+msgid "Width : Height, example 2:1"
+msgstr ""
+
+#: addons.php:80
+msgid "Filter"
+msgstr ""
+
+#: addons.php:88
+msgid "Works only in modern browsers."
+msgstr ""
+
+#: addons.php:88
+msgid "Examples"
+msgstr ""
+
+#: addons.php:92
+msgid "No Filter"
+msgstr ""
+
+#: addons.php:94
+msgid "Aden"
+msgstr ""
+
+#: addons.php:95
+msgid "Brannan"
+msgstr ""
+
+#: addons.php:96
+msgid "Brooklyn"
+msgstr ""
+
+#: addons.php:97
+msgid "Clarendon"
+msgstr ""
+
+#: addons.php:98
+msgid "Earlybird"
+msgstr ""
+
+#: addons.php:99
+msgid "Gingham"
+msgstr ""
+
+#: addons.php:100
+msgid "Hudson"
+msgstr ""
+
+#: addons.php:101
+msgid "Inkwell"
+msgstr ""
+
+#: addons.php:102
+msgid "Kelvin"
+msgstr ""
+
+#: addons.php:103
+msgid "Lark"
+msgstr ""
+
+#: addons.php:104
+msgid "Lo-Fi"
+msgstr ""
+
+#: addons.php:105
+msgid "Maven"
+msgstr ""
+
+#: addons.php:106
+msgid "Mayfair"
+msgstr ""
+
+#: addons.php:107
+msgid "Moon"
+msgstr ""
+
+#: addons.php:108
+msgid "Nashville"
+msgstr ""
+
+#: addons.php:109
+msgid "Perpetua"
+msgstr ""
+
+#: addons.php:110
+msgid "Reyes"
+msgstr ""
+
+#: addons.php:111
+msgid "Rise"
+msgstr ""
+
+#: addons.php:112
+msgid "Slumber"
+msgstr ""
+
+#: addons.php:113
+msgid "Stinson"
+msgstr ""
+
+#: addons.php:114
+msgid "Toaster"
+msgstr ""
+
+#: addons.php:115
+msgid "Valencia"
+msgstr ""
+
+#: addons.php:116
+msgid "Walden"
+msgstr ""
+
+#: addons.php:117
+msgid "Willow"
+msgstr ""
+
+#: addons.php:118
+msgid "X-pro II"
+msgstr ""
+
+#: admin/default.php:10 metabox-post-thumbnails.php:70
+msgid "Link"
+msgstr ""
+
+#: admin/default.php:14 admin/general.php:111 metabox-post-thumbnails.php:75
+#: shortcode/thumbslider-opt.php:20
+msgid "None"
+msgstr ""
+
+#: admin/default.php:15 metabox-post-thumbnails.php:76
+msgid "Media File"
+msgstr ""
+
+#: admin/default.php:16
+msgid "Post"
+msgstr ""
+
+#: admin/default.php:17 metabox-post-thumbnails.php:78
+msgid "Attachment Page"
+msgstr ""
+
+#: admin/default.php:22 metabox-post-thumbnails.php:92
+msgid "Open to"
+msgstr ""
+
+#: admin/default.php:26
+msgid "Same window/tab "
+msgstr ""
+
+#: admin/default.php:27 metabox-post-thumbnails.php:98
+msgid "New window/tab"
+msgstr ""
+
+#: admin/default.php:28 admin/general.php:107 metabox-post-thumbnails.php:99
+msgid "Lightbox"
+msgstr ""
+
+#: admin/default.php:29 metabox-post-thumbnails.php:100
+msgid "Dedicated Lightbox"
+msgstr ""
+
+#: admin/default.php:40
+msgid "Default Settings"
+msgstr ""
+
+#: admin/default.php:42
+msgid ""
+"Featured image or thumbnail is being added to follow default settings. "
+"Changes here will not affect existent thumbnails."
+msgstr ""
+
+#: admin/general.php:22
+msgid "Number of Featured Images"
+msgstr ""
+
+#: admin/general.php:23
+msgid "At max (per post)"
+msgstr ""
+
+#: admin/general.php:46
+msgid "Inherit Theme Style"
+msgstr ""
+
+#: admin/general.php:47
+msgid ""
+"Not work on thumbnail sliders inserted by shortcode, because there is no "
+"style to inherit."
+msgstr ""
+
+#: admin/general.php:50
+msgid "On thumbnail slider"
+msgstr ""
+
+#: admin/general.php:51
+msgid "On thumbnail"
+msgstr ""
+
+#: admin/general.php:74
+msgid "Slider Button Style"
+msgstr ""
+
+#: admin/general.php:75
+msgid "Choose a button style"
+msgstr ""
+
+#: admin/general.php:78 inc/prettyphoto/prettyphoto.php:22
+msgid "Default"
+msgstr ""
+
+#: admin/general.php:79
+msgid "Circle"
+msgstr ""
+
+#: admin/general.php:80
+msgid "Dock Square"
+msgstr ""
+
+#: admin/general.php:81
+msgid "Outline Circle"
+msgstr ""
+
+#: admin/general.php:108
+msgid ""
+"Use <strong>PhotoSwipe</strong> for Visual Composer Integration, the "
+"lightbox is image only at this time."
+msgstr ""
+
+#: admin/general.php:112
+msgid "PrettyPhoto"
+msgstr ""
+
+#: admin/general.php:113
+msgid "PhotoSwipe"
+msgstr ""
+
+#: admin/general.php:124
+msgid "Image size in lightbox"
+msgstr ""
+
+#: admin/general.php:127
+msgid "Full Size"
+msgstr ""
+
+#: admin/general.php:149
+msgid "Loading Icon"
+msgstr ""
+
+#: admin/general.php:150
+msgid "Upload a loading GIF to enable loading animation"
+msgstr ""
+
+#: admin/general.php:188
+msgid "General"
+msgstr ""
+
+#: admin/general.php:195
+msgid "Pro features are unlocked with premium version."
+msgstr ""
+
+#: admin/init.php:22
+msgid "WordPress Plugin by"
+msgstr ""
+
+#: admin/init.php:23
+msgid "Version"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Ultimate Post Thumbnails"
+msgstr ""
+
+#: admin/init.php:42
+msgid "lite version"
+msgstr ""
+
+#: admin/init.php:43 metabox-thumbnail-slider-settings.php:117
+msgid "Thumbnails"
+msgstr ""
+
+#: admin/post-types.php:10
+msgid "Enable for Posts"
+msgstr ""
+
+#: admin/post-types.php:15 admin/post-types.php:25 admin/post-types.php:48
+#: metabox-thumbnail-slider-settings.php:51
+#: metabox-thumbnail-slider-settings.php:60
+#: metabox-thumbnail-slider-settings.php:97
+#: metabox-thumbnail-slider-settings.php:116
+#: metabox-thumbnail-slider-settings.php:127
+#: metabox-thumbnail-slider-settings.php:136
+#: metabox-thumbnail-slider-settings.php:145
+msgid "No"
+msgstr ""
+
+#: admin/post-types.php:20
+msgid "Enable for Pages"
+msgstr ""
+
+#: admin/post-types.php:43
+msgid "Enable for"
+msgstr ""
+
+#: admin/post-types.php:59
+msgid "Post Types"
+msgstr ""
+
+#: admin/post-types.php:61
+msgid "Select post types you want to enable multiple featured images for"
+msgstr ""
+
+#: inc/fly-dynamic-image-resizer.php:56
+msgid "Fly Images"
+msgstr ""
+
+#: inc/fly-dynamic-image-resizer.php:72
+msgid "Delete all cached image sizes for this image"
+msgstr ""
+
+#: inc/fly-dynamic-image-resizer.php:72
+msgid "Delete Cached Fly Images"
+msgstr ""
+
+#: inc/fly-dynamic-image-resizer.php:110
+msgid "All cached images created on the fly have been deleted."
+msgstr ""
+
+#: inc/prettyphoto/prettyphoto.php:16
+msgid "Lightbox Theme"
+msgstr ""
+
+#: inc/prettyphoto/prettyphoto.php:17
+msgid "Choose a lightbox theme"
+msgstr ""
+
+#: inc/prettyphoto/prettyphoto.php:23
+msgid "Light Rounded"
+msgstr ""
+
+#: inc/prettyphoto/prettyphoto.php:24
+msgid "Dark Rounded"
+msgstr ""
+
+#: inc/prettyphoto/prettyphoto.php:25
+msgid "Light Square"
+msgstr ""
+
+#: inc/prettyphoto/prettyphoto.php:26
+msgid "Dark Square"
+msgstr ""
+
+#: inc/prettyphoto/prettyphoto.php:27
+msgid "Facebook"
+msgstr ""
+
+#: inc/prettyphoto/prettyphoto.php:45
+msgid "Lightbox Size"
+msgstr ""
+
+#: inc/prettyphoto/prettyphoto.php:50
+msgid "Auto"
+msgstr ""
+
+#: inc/prettyphoto/prettyphoto.php:51
+msgid "Custom Size"
+msgstr ""
+
+#: inc/prettyphoto/prettyphoto.php:57
+msgid "Width"
+msgstr ""
+
+#: inc/prettyphoto/prettyphoto.php:64
+msgid "Height"
+msgstr ""
+
+#: metabox-post-thumbnails.php:7
+msgid "Image"
+msgstr ""
+
+#: metabox-post-thumbnails.php:7
+msgid "Featured Image"
+msgstr ""
+
+#: metabox-post-thumbnails.php:8
+msgid "Add Image"
+msgstr ""
+
+#: metabox-post-thumbnails.php:8
+msgid "Add Featured Image"
+msgstr ""
+
+#: metabox-post-thumbnails.php:30
+msgid "WP Featured Image"
+msgstr ""
+
+#: metabox-post-thumbnails.php:77
+msgid "Current Post"
+msgstr ""
+
+#: metabox-post-thumbnails.php:85
+msgid "Custom URL"
+msgstr ""
+
+#: metabox-post-thumbnails.php:97
+msgid "Same window/tab"
+msgstr ""
+
+#: metabox-post-thumbnails.php:107
+msgid "Position"
+msgstr ""
+
+#: metabox-post-thumbnails.php:108
+msgid "Some themes require an absolute position for post thumbnail."
+msgstr ""
+
+#: metabox-post-thumbnails.php:113
+msgid "Relative"
+msgstr ""
+
+#: metabox-post-thumbnails.php:114
+msgid "Absolute"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:14
+msgid "Nav Button Color"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:18
+msgid "Light"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:19
+msgid "Dark"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:23
+msgid "Animation"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:28
+msgid "Fade"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:29
+msgid "Slide"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:33
+msgid "Direction"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:34
+msgid "Select the sliding direction"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:39
+msgid "Horizontal"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:40
+msgid "Vertical"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:44
+msgid "Reverse"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:45
+msgid "Reverse the animation direction"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:55
+msgid "Autoplay"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:64
+msgid "Easing"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:65
+msgid "What is easing?"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:71
+msgid "Slider Speed"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:75
+msgid "Set the speed of the slideshow cycling, in milliseconds"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:78
+msgid "Animation Speed"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:82
+msgid "Set the speed of animations, in milliseconds"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:85
+msgid "Start Time"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:89
+msgid "Set the start time, in milliseconds"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:92
+msgid "Show Direction Nav"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:101
+msgid "Direction Nav Size"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:105
+msgid "Small"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:106
+msgid "Medium"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:107
+msgid "Large"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:111
+msgid "Show Control Nav"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:121
+msgid "Random Order"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:123
+msgid "Randomize slide order"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:131
+msgid "Pause on hover"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:140
+msgid "Auto Height"
+msgstr ""
+
+#: metabox-thumbnail-slider-settings.php:153
+#: metabox-thumbnail-slider-settings.php:161
+msgid "Thumbnail Slider Settings"
+msgstr ""
+
+#: shortcode/shortcode.thumbslider.php:43
+msgid "Ultimate Post Thumbnail: Invalid Post ID!"
+msgstr ""
+
+#: shortcode/thumbslider-opt.php:8
+msgid "Slider Size"
+msgstr ""
+
+#: shortcode/thumbslider-opt.php:15
+msgid "Alignment"
+msgstr ""
+
+#: shortcode/thumbslider-opt.php:21
+msgid "Left"
+msgstr ""
+
+#: shortcode/thumbslider-opt.php:22
+msgid "Center"
+msgstr ""
+
+#: shortcode/thumbslider-opt.php:23
+msgid "Right"
+msgstr ""
+
+#: shortcode/thumbslider-opt.php:27
+msgid "Post ID (optional)"
+msgstr ""
+
+#: shortcode/thumbslider-opt.php:28
+msgid "You can pull thumbnails from a specific post"
+msgstr ""
+
+#: shortcode/thumbslider-opt.php:36
+msgid "Thumbnail Slider"
+msgstr ""
+
+#: shortcode/thumbslider-opt.php:39
+msgid "Insert Shortcode"
+msgstr ""
+
+#: ultimate-post-thumbnails.php:50
+msgid "Clear your browser cache if abnormal style in the Feature Image option box."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.themenow.com/plugins/ultimate-post-thumbnails"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Seamlessly WP integrated post thumbnail plugin, turn single post thumbnail "
+"to a responsive slider of multiple post thumbnails, integrates a beautiful "
+"and powerful lightbox, automatically match theme style, drag and drop "
+"backend, and much more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Addway"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.themeforest.net/user/addway"
+msgstr ""
